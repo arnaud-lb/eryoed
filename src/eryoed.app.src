@@ -1,0 +1,12 @@
+{application, eryoed,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { eryoed_app, []}},
+  {env, [{handlers, []}]}
+ ]}.
